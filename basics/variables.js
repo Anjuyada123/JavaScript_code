@@ -6,3 +6,5 @@ var accountPassword="1234"
 console.log(accountId,accountEmail,accountPassword);
 
 console.table([accountEmail,accountId,accountPassword]);
+//prefer not to use var because of issue in block scope
+
